@@ -154,8 +154,7 @@ public class SMS_PORTAL extends AppCompatActivity implements RadioGroup.OnChecke
                 if(via.getCheckedRadioButtonId()==R.id.ONLINE)
                 {
                     i.putExtra("isOnline",true);
-                    //i.putExtra("token",token.getText().toString());
-                    i.putExtra("token","AKnkInruZI");
+                    i.putExtra("token",token.getText().toString());
                 }
                 else
                     i.putExtra("isOnline",false);
